@@ -47,10 +47,10 @@ const Testimonial = () => {
                 </div>
 
                 <p>
-                I’m always impressed by ahmed's ability to focus and solve problems. 
+                I am always impressed by ahmed &apos;s ability to focus and solve problems. 
                 He exemplifies humility and maturity in the workspace and during 
                 extracurricular activities. I therefore highly recommend Ahmed Jemal Anwar 
-                as a Software Developer. He's a delight to work with.
+                as a Software Developer. He is a delight to work with.
                 </p>
               </div>
 
