@@ -26,11 +26,11 @@ const Hero = () => {
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  <Link href="mailto:ajemal840@gmail.com">Hire me</Link>
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href='/My_main_resume.pdf' target="_blank" download="My_main_resume.pdf">Download CV</Link>
                 </button>
               </div>
             </div>
@@ -40,29 +40,7 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
               <Image alt="hero-image" src={heroImg} width="300" height="400" />
-              {/*
-              <div className={`${classes.hero__skills}`}>
-                <h6>Skills</h6>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-              </div>
-              */}
+            
               <div
                 className={`${classes.hero__experience} d-flex align-items-center gap-3`}
               >

@@ -1,83 +1,45 @@
 const portfolio = [
   {
     id: "01",
-    title: "Transportation Mobile App",
-    img: "/images/portfolio-01.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    title: "Portfolio Website",
+    img: "/images/old-portfolio.png",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "https://portfolio.ahmedjemal.com/",
   },
 
   {
     id: "02",
-    title: "Workout Tracker App",
-    img: "/images/portfolio-02.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    title: "Bakery Website",
+    img: "/images/othello-web.png",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "https://othello.ahmedjemal.com/",
   },
 
   {
     id: "03",
-    title: "Fashion Shopping App",
-    img: "/images/portfolio-03.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    title: "Chat App",
+    img: "/images/ichat-app.png",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "https://ichat.ahmedjemal.com/",
   },
-
   {
     id: "04",
-    title: "Fashion Shopping App",
-    img: "/images/portfolio-04.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    title: "Netflix clone",
+    img: "/images/netflix-clone.png",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "https://netflix-clone.ahmedjemal.com/",
   },
-
   {
     id: "05",
-    title: "Furniture Shopping App",
-    img: "/images/portfolio-05.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "06",
-    title: "Travel  App",
-    img: "/images/portfolio-06.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "07",
-    title: "Portfolio Website",
-    img: "/images/portfolio-07.png",
+    title: "Vaasa Islamic Society",
+    img: "/images/vis.png",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "08",
-    title: "Restaurant Website",
-    img: "/images/portfolio-08.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "09",
-    title: "Agency Website",
-    img: "/images/portfolio-09.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
+    liveUrl: "https://vaasa-mosque-website.vercel.app/",
   },
 ];
 

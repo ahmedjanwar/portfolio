@@ -12,7 +12,7 @@ const Services = () => {
           <Col lg="6" md="6">
             <div className={`${classes.services__container}`}>
               <div>
-                <ServicesItem title="Python Development" icon="ri-apps-line" />
+                <ServicesItem title="App Development" icon="ri-apps-line" />
 
                 <ServicesItem title="Web Development" icon="ri-computer-line" />
               </div>
@@ -29,11 +29,11 @@ const Services = () => {
             <h3 className="mb-0 mt-4">Better Design,</h3>
             <h3 className="mb-4">Better Experience</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
-              culpa nobis corporis officiis, numquam cupiditate, enim expedita
-              eveniet dolorum, aliquid nesciunt sapiente illo voluptatum!
-              Dolores fuga mollitia atque, placeat minima quibusdam accusantium!
-              Veniam, non distinctio dolorem rerum laboriosam deleniti.
+            I Engineer software that can be deployed quickly and
+            seamlessly, to enhance continuous integration
+            techniques with revised integration/deployment scripts
+            to strengthen my grasp of JavaScript and Python used
+            to create various projects.
             </p>
           </Col>
         </Row>

@@ -7,10 +7,11 @@ import PortfolioItem from "./PortfolioItem";
 import portfolioData from "../data/portfolio";
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("Mobile App");
+  const [filter, setFilter] = useState("Web Design");
   const [data, setData] = useState();
 
   useEffect(() => {
+    {/** 
     if (filter === "Mobile App") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
@@ -18,6 +19,7 @@ const Portfolio = () => {
 
       setData(filteredData);
     }
+    */}
 
     if (filter === "Web Design") {
       const filteredData = portfolioData.filter(
@@ -41,6 +43,7 @@ const Portfolio = () => {
 
           <Col lg="6" md="6">
             <div className={`${classes.tab__btns} text-end`}>
+              {/** 
               <button
                 className={` ${
                   filter === "Mobile App" ? active : ""
@@ -49,6 +52,7 @@ const Portfolio = () => {
               >
                 Mobile App
               </button>
+              */}
               <button
                 className={`${
                   filter === "Web Design" ? active : ""

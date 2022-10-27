@@ -10,6 +10,7 @@ import img03 from "../../public/images/img-03.jpeg";
 import img04 from "../../public/images/hero.jpg";
 
 import classes from "../../styles/about.module.css";
+import Skillbar from "./Skillbar";
 
 const About = () => {
   return (
@@ -21,11 +22,11 @@ const About = () => {
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+            I believe that great work comes from building great relationships.
+            I work one on one with my clients and collaborate with teams and 
+            with them every step of the way.
+            My greatest passion is in life is using my technical know-how 
+            to benefit other people and organizations
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -41,7 +42,7 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Search A Lot
+                  Creativity
                 </h6>
               </div>
 
@@ -50,17 +51,21 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Creative Idea
+                  Programming
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  High Quality
+                  Goal and result driven
                 </h6>
               </div>
-            </div>
+              
+             </div>
+
+            {/** SkillBar here */}
+            <Skillbar />
 
             <div className="mt-5">
               <button className="primary__btn">
@@ -68,7 +73,7 @@ const About = () => {
               </button>
 
               <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
+                <Link href='/My_main_resume.pdf' target="_blank" download="My_main_resume.pdf">Download CV</Link>
               </button>
             </div>
           </Col>
