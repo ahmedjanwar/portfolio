@@ -11,7 +11,7 @@ const Testimonial = () => {
     dots: false,
     autoplay: true,
     speed: 1000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3500,
     infinite: true,
     swipeToSlide: true,
     slidesToShow: 1,
@@ -34,10 +34,10 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/c1-img.jpg"
+                    src="/images/Moha.jpeg"
                     width="50"
                     height="50"
-                    className=" rounded-2"
+                    className=" rounded-50%"
                   />
 
                   <div>
@@ -47,12 +47,10 @@ const Testimonial = () => {
                 </div>
 
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                I’m always impressed by ahmed's ability to focus and solve problems. 
+                He exemplifies humility and maturity in the workspace and during 
+                extracurricular activities. I therefore highly recommend Ahmed Jemal Anwar 
+                as a Software Developer. He's a delight to work with.
                 </p>
               </div>
 
@@ -60,15 +58,15 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/c-img.jpg"
+                    src="/images/adema.jpeg"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
 
                   <div>
-                    <h6>Henry Nichols</h6>
-                    <h6>Web Developer</h6>
+                    <h6>mohammed adem</h6>
+                    <h6>Software Developer at Cumucore</h6>
                   </div>
                 </div>
 
@@ -86,15 +84,15 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/c3-img.jpg"
-                    width="50"
-                    height="50"
+                    src="/images/talal.jpeg"
+                    width="80"
+                    height="30"
                     className=" rounded-2"
                   />
 
                   <div>
-                    <h6>Adam Smith</h6>
-                    <h6>Financial Accountant</h6>
+                    <h6>Talal Saleh</h6>
+                    <h6>Research Assistant | Electrical Engineer | Smart Energy | Artificial Intelligence Enthusiast</h6>
                   </div>
                 </div>
                 <p>

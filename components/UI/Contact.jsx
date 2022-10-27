@@ -14,9 +14,7 @@ const Contact = () => {
             <SectionSubtitle subtitle="Contact me" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              beatae ratione iusto cum. Doloremque suscipit eius provident error
-              labore est reprehenderit, exercitationem corrupti earum deleniti!
+            If you’d like to know more about my work or process feel free to get in touch.
             </p>
 
             <ul className={`${classes.contact__info__list}`}>
@@ -40,26 +38,26 @@ const Contact = () => {
               </li>
             </ul>
 
-            <div className={`${classes.social__links}`}>
-              <Link href="#">
-                <i className="ri-youtube-line"></i>
-              </Link>
+            <div className={`${classes.social__links} `}>
+              
               <Link href="https://github.com/ahmedjanwar">
-                <i className="ri-github-line"></i>
-              </Link>
-              <Link href="https://www.facebook.com/ahmed.jemal.94009841">
-                <i className="ri-facebook-line"></i>
+                <i className="ri-github-line mx-1 h-5 "></i>
               </Link>
               <Link href="https://www.linkedin.com/in/ahmedjanwar/">
-                <i className="ri-linkedin-line"></i>
+                <i className="ri-linkedin-line mx-2"></i>
               </Link>
               <Link href="https://www.instagram.com/ahmedjemal_/">
-                <i className="ri-instagram-line"></i>
+                <i className="ri-instagram-line mx-2"></i>
               </Link>
+              <Link href="https://www.facebook.com/ahmed.jemal.94009841">
+                <i className="ri-facebook-line mx-2"></i>
+              </Link>
+
             </div>
           </Col>
 
           <Col lg="6" md="6">
+            {/** Form Here */}
             <Form />
           </Col>
         </Row>

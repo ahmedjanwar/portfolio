@@ -3,6 +3,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
+import classes1 from "../../styles/contact.module.css";
 import heroImg from "../../public/images/hero.jpg";
 import classes from "../../styles/hero.module.css";
 
@@ -24,6 +25,24 @@ const Hero = () => {
               including requirements gathering, feasibility studies, deployment and maintenance.
               Enjoys collaborating with colleagues and building cultures of cross-functional working.
               </p>
+
+              <div className={`${classes1.social__links} `}>
+              
+              <Link href="https://github.com/ahmedjanwar">
+                <i className="ri-github-line mx-1 h-5 "></i>
+              </Link>
+              <Link href="https://www.linkedin.com/in/ahmedjanwar/">
+                <i className="ri-linkedin-line mx-2"></i>
+              </Link>
+              <Link href="https://www.instagram.com/ahmedjemal_/">
+                <i className="ri-instagram-line mx-2"></i>
+              </Link>
+              <Link href="https://www.facebook.com/ahmed.jemal.94009841">
+                <i className="ri-facebook-line mx-2"></i>
+              </Link>
+
+            </div>
+
               <div className="mt-5">
                 <button className="primary__btn">
                   <Link href="mailto:ajemal840@gmail.com">Hire me</Link>
@@ -34,6 +53,9 @@ const Hero = () => {
                 </button>
               </div>
             </div>
+
+   
+
           </Col>
 
           {/* ========== hero img ============= */}
