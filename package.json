@@ -1,12 +1,12 @@
 {
   "name": "next-portfolio",
+  "homepage": "https://portfolio.ahmedjemal.com/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@material-tailwind/react": "^1.2.4",
